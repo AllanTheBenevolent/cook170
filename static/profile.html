@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Ryan Weng">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--CSS Stylesheets-->
+        <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+        
+        <!--Scripts go here-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        
+        <title>
+            App Name | Profile    
+        </title>
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            <img src="img/logo_black2.png" alt="logo" class="navbar_logo">
+                        </a>
+                
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">COOK</a></li>
+                            <li class="active"><a href="profile.html">PROFILE</a></li>
+                            <li><a href="#">BUDDIES</a></li>
+                            <li><a href="help.html">HELP</a></li>
+                            <li><a href="#">SIGN OUT</a></li>
+                        </ul>  
+                    </div>
+                </div> 
+            </div>
+            <!--start-->
+<div class="container" style="padding-top: 60px;">
+  <h1 class="page-header">Profile</h1>
+  <div class="row">
+    <!-- left column -->
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="text-center">
+        <img src="http://lorempixel.com/200/200/people/9/" class="avatar img-circle img-thumbnail" alt="avatar">
+      </div>
+    </div>
+    <!-- edit form column -->
+    <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
+      <h3>Personal info</h3><ul class="list-group">
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Username</strong></span> janeuser</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Email</strong></span> janesemail@gmail.com</li>
+            
+          </ul> 
+          <div class="col-md-8">
+            <a class="btn btn-default" href="editProfile.html" role="button">Edit Profile</a>
+            <a class="btn btn-default" href="#" role="button">View Buddies</a>
+            <a class="btn btn-default" href="#" role="button">View Bookmarked Recipes</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!--end-->
+            
+        </div>    
+
+    </body>
+</html>

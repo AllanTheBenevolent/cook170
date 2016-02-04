@@ -1,22 +1,63 @@
 <!DOCTYPE html>
+
+<!-- style nav bar, add algorithm, add back buton -->
 <head>
     <!-- styles the input bar -->
-    <link rel="stylesheet" type="text/css" href="realhomebuttons.css">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
     <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+
 	<title>Not sure yet</title>
 </head>
-<!--Allan is the best-->
+
 <body>
-    <h1> Game Title</h1>
-    <div id="searchBar">
-        <ul class="buttonslist">
-            <li id="cook"><a href="\profile">cook</a></li>
-            <li id="profile"><a href="\profile">profile</a></li>
-            <li id="settings"><a href="\profile">settings</a></li>
-            <li id="help"><a href="\profile">help</a></li>
-            <li id="log out"><a href="\profile">log out</a></li>
-        </ul>
-    </div>
+    <div class="wrapper">
+            <!--Top Navbar-->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            <img src="img/logo_black2.png" alt="logo" class="navbar_logo">
+                        </a>
+                
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html">COOK</a></li>
+                            <li><a href="profile.html">PROFILE</a></li>
+                            <li><a href="#">BUDDIES</a></li>
+                            <li><a href="help.html">HELP</a></li>
+                            <li><a href="#">SIGN OUT</a></li>
+                        </ul>  
+                    </div>
+                </div> 
+            </div>
         
+    
+    <h1>What are you cooking with?</h1>
+    
+    
+    <div class="container">
+    <div id="searchBar">
+            <form>
+                <input type="text" id="search" placeholder="i.e. rice" required >
+                <input type="submit" class="solid" value="Add">
+            </form>
+        </div>
+    </div>
+    </div>
+    <!--<img src="../Documents/mrfryingpan.png" height="120" width="100">-->
+    
 </body>
 </html>
+
+

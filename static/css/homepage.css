@@ -1,0 +1,98 @@
+body {
+    background: #66CCFF;
+        padding-top: 90px;
+
+}
+
+h1{
+    color: white;
+}
+
+#searchBar{
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    background: #f2f2f2;
+    padding: 6px 10px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px; 
+    box-shadow: inset 0 -2px 2px rgba(255, 255, 255, 1), 0 -5px 0 #ccc, 0 -6px 0 #989898;
+        /*, 0 -13px 0 #dfdede; */
+    /* firefox -moz-border-radius: 5px; 
+     -moz-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.8), inset 0 2px 2px rgba(255, 255, 255, 1), 0 5px 0 #ccc, 0 6px 0 #989898, 0 13px 0 #dfdede;*/
+   
+    /* chrome/safari -webkit-border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.8), inset 0 2px 2px rgba(255, 255, 255, 1), 0 5px 0 #ccc, 0 6px 0 #989898, 0 13px 0 #dfdede; */
+}
+
+h1{
+    text-align: center;
+    font-family: 'Candal', sans-serif;
+    letter-spacing: 3.5px;
+    font-size: 30px;
+}
+
+img{
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+}
+
+input[type="text"] { 
+    float: left; 
+    width: 200px; 
+    padding: 15px 5px 5px 5px; 
+    margin-top: 5px; 
+    margin-left: 3px; 
+    border: 1px solid #66CCCC; 
+    
+    box-shadow: inset 0 -5px 0 #ccc, inset 0 -6px 0 #989898;
+        /*, inset 0 -13px 0 #dfdede; */
+    
+   /* -moz-border-radius: 5px; 
+    -moz-box-shadow: inset 0 5px 0 #ccc, inset 0 6px 0 #989898, inset 0 13px 0 #dfdede; */
+   
+   /* -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+   -webkit-box-shadow: inset 0 5px 0 #ccc, inset 0 6px 0 #989898, inset 0 13px 0 #dfdede; 
+    */
+}
+
+/* Styles the search button and text */
+input[type="submit"].solid { 
+    float: left; 
+    /*cursor: pointer;*/ 
+    width: 50px; 
+    padding: 8px 6px; 
+    margin-left: 25px; 
+    margin-top: 14px;
+    background-color: #33FF99; 
+    color: #006633;
+    text-transform: uppercase; 
+    font-weight: bold; 
+    border: 1px solid #00CC66; 
+    border-radius: 5px; 
+
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7), 0 -1px 0 #006633;  
+     box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 -1px 2px rgba(255, 255, 255, 0.7), 0 -5px 0 #33DD66, 0 -6px 0 #33DD66;/*, 0 -13px 0 #ccc; */
+      
+    
+    /* -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -moz-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.7), 0 5px 0 #b8882a, 0 6px 0 #593a11, 0 13px 0 #ccc; 
+    -webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.7), 0 5px 0 #b8882a, 0 6px 0 #593a11, 0 13px 0 #ccc; 
+    -webkit-transition: background 0.2s ease-out; */
+}
+
+input[type="submit"].solid:active { 
+    background: #33FF99; 
+    position: relative; 
+    top: -4px; 
+    border: 1px solid #00CC66; 
+    
+       box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 -1px 2px rgba(255, 255, 255, 0.7), 0 -5px 0 #33DD66, 0 -6px 0 #33DD66;
+         /*0 8px 0 #ccc;*/
+    /*
+    -moz-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.7), 0 3px 0 #b8882a, 0 4px 0 #593a11, 0 8px 0 #ccc; 
+    -webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.7), 0 3px 0 #b8882a, 0 4px 0 #593a11, 0 8px 0 #ccc; */
+}

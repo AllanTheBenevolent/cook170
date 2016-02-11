@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <!-- style nav bar, add algorithm, add back buton -->
 <head>
     <!-- styles the input bar -->
@@ -12,8 +12,7 @@
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-
-	<title>Not sure yet</title>
+	<title>Tastebuddies</title>
 </head>
 
 <body>
@@ -37,7 +36,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a href="index.html">COOK</a></li>
                             <li><a href="profile.html">PROFILE</a></li>
-                            <li><a href="#">BUDDIES</a></li>
+                            <li><a href="tastebuddies.html">TASTEBUDDIES</a></li>
                             <li><a href="help.html">HELP</a></li>
                             <li><a href="#">SIGN OUT</a></li>
                         </ul>  
@@ -45,22 +44,22 @@
                 </div> 
             </div>
         
-    
-    <h1>What are you cooking with?</h1>
-    
-    
     <div class="container">
-    <div id="searchBar">
+        <h1>What are you cooking with?</h1>
+        <img class="maintastebuddy" src="../images/pandacakee.png" height="120" width="100">
+        <img class="speechbubble" src="../images/defaulthomepage.png" height="110" width="100">
+    
+        <div id="searchBar">
             <form>
                 <input type="text" id="search" placeholder="i.e. rice" required >
                 <input type="submit" class="solid" value="Add">
             </form>
         </div>
+        <a class="recipes" href="profile.html"><img class="submit" src="" height="40" width="100"></a>
     </div>
-    </div>
-    <!--<img src="../Documents/mrfryingpan.png" height="120" width="100">-->
+    </div> <!-- end of wrapper div -->
     
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../static/js/homepage.js"></script>
 </body>
 </html>
-
-

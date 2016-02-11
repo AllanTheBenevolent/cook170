@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<!-- style nav bar, add algorithm, add back buton -->
+<head>
+    <!-- styles the input bar -->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/tastebuddies.css">
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+	<title>TasteBuddies</title>
+</head>
+
+<body>
+    <div class="wrapper">
+            
+        <!--Top Navbar-->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            <img src="img/logo_black2.png" alt="logo" class="navbar_logo">
+                        </a>
+                
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html">COOK</a></li>
+                            <li><a href="profile.html">PROFILE</a></li>
+                            <li><a href="#">TASTEBUDDIES</a></li>
+                            <li><a href="help.html">HELP</a></li>
+                            <li><a href="#">SIGN OUT</a></li>
+                        </ul>  
+                    </div> <!-- end of collapes navbar -->
+                </div> <!-- end of container div -->
+            </div> <!-- end of Top Bar-->
+        
+                                                        
+        <!-- Header -->
+        <h1> Tastebuddies</h1>
+        <p id="description"> Tastebuddies are your friends. They help you cook and eat yummy meals. Find new friends by trying new recipes!</p>
+          
+        <!-- List of Tastebuddies -->
+        <div class="container tastebuddylist" style="height:450px; overflow-y:scroll" >
+        <div class="row">
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy top unlocked" src="../images/pandacakee.png"><p id="tastebuddy">Pandacake</p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy top unlocked" src="../images/mrfryingpan.png"><p id="tastebuddy">PanPan</p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy unlocked" src="../images/boiled egg.png"><p id="tastebuddy">Eggy</p></a>
+            </div>  
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy unlocked" src="../images/bearger.png"><p id="tastebuddy">Bearger</p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy" src="../images/pizza-locked.png"><p id="tastebuddy">Locked</p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy" src="../images/cupcake-locked.png"><p id="tastebuddy">Locked</p></[></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy bottom" src="../images/pizza-locked.png"><p id="tastebuddy">Locked</p></a>
+            </div><div class="col-xs-6 col-sm-4">
+                <a href="#"><img class="tastebuddy bottom" src="../images/cupcake-locked.png"><p id="tastebuddy">Locked</p></a>
+            </div>
+         </div> <!--end row div-->                                                   
+        </div> <!-- end container div-->
+        
+</div> <!-- end wrapper div -->
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../static/js/tastebuddies.js"></script>
+    
+</body>
+</html>
+
+

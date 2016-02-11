@@ -2,7 +2,7 @@ $('img').click(function() {
     $(this).toggleClass("active");
 });
 
-$('a').click(nameClick);
+$('a.tastebuddy').click(nameClick);
 
 function nameClick(e) {
     e.preventDefault();

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!-- style nav bar, add algorithm, add back buton -->
+<head>
+    <!-- styles the input bar -->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<title>Tastebuddies</title>
+</head>
+
+<body>
+    <div class="wrapper">
+            <!--Top Navbar-->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            <h3 id="tastebuddiestitle">Tastebuddies</h3>
+                        </a>
+                        
+                        <div class="dropdown pull-right">
+                            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Menu
+                            </button>
+                            <ul class="dropdown-menu pull-right" aria-labelledby="dLabel">
+                                <li class="active"><a href="cook.html">COOK</a></li>
+                                <li><a href="profile.html">PROFILE</a></li>
+                                <li><a href="tastebuddies.html">TASTEBUDDIES</a></li>
+                                <li><a href="help.html">HELP</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="index.html">SIGN OUT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    <div class="container">
+        <h1 class="ingredients">What are you cooking with?</h1>
+        <img class="maintastebuddy" src="../images/pandacakee.png" height="120" width="100">
+        <img class="speechbubble" src="../images/defaulthomepage.png" height="110" width="100">
+    
+        <div id="searchBar">
+            <form>
+                <input type="text" id="search" placeholder="i.e. rice" required >
+                <input type="submit" class="solid" value="Add">
+            </form>
+        </div>
+        <a class="recipes" href="recipes.html"><img class="submit" src="" height="40" width="100"></a>
+    </div>
+    </div> <!-- end of wrapper div -->
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../static/js/homepage.js"></script>
+</body>
+</html>

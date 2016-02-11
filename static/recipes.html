@@ -8,8 +8,8 @@
         <!--CSS Stylesheets-->
         <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-        
-    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/recipes.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
         
         <!--Scripts go here-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -22,6 +22,7 @@
     
     <body>
         <div class="wrapper">
+            <!--Top Navbar-->
             <div class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
@@ -45,9 +46,41 @@
                     </div>
                 </div>
             </div>
-            <!--start-->
-</div>
+         
+        <!--start-->
+        <!-- Header -->
+        <h1>Recipes</h1>
+        <p id="description">Delicious meals that you can create with your items! Click to start cooking. You may also bookmark recipes you want to cook later.</p>
+            
+        <div class="container recipeslist" style="height:450px; overflow-y:scroll" >
+        <div class="row">
+            <div class="col-xs-9">
+                <img class="recipes" src="../images/chickensandwich.jpg" height="300" width="340">                                                 
+                <section>
+                <p class="recipe">Chicken Sandwich</p>
+                    <a href="chickensandwich.html"><p>Cook</p></a></section>
+                    <a href="profile.html"><p class="plus">Bookmark</p></a>
 
+            </div>
+            <div class="col-xs-9">
+                <img class="recipes" src="../images/chickensalad.jpg" height="300" width="340">
+                <p class="recipe">Chicken Salad</p>
+                <a href="chickensandwich.html"><p>Cook</p></a>
+                <a href="profile.html"><p class="plus">Bookmark</p></a>
+
+            </div>
+            <div class="col-xs-9">
+                <img class="recipes" src="../images/chickenwrap.jpg" height="300" width="340">
+                <p class="recipe">Chicken Wrap</p>
+                <a href="chickensandwich.html"><p>Cook</p></a>
+                <a href="profile.html"><p class="plus">Bookmark</p></a>
+
+            </div>
+            </div>
+            <!-- Buddy -->
+        <img class="maintastebuddy" src="../images/pandacakee.png" height="120" width="100">
+        <img class="speechbubble" src="../images/defaulthomepage.png" height="110" width="100">
+            </div>
 <!--end-->
 </body>
 </html>

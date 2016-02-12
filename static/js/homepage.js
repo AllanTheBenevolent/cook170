@@ -5,12 +5,12 @@ $('input.solid').click(clickAdd);
 function clickAdd(e){
     count += 1;
     
-    $('img.submit').attr("src", "../images/submit.png");
+    $('img.submit').attr("src", "img/submit.png");
     
     if(count == 1){
-        $('img.speechbubble').attr("src", "../images/yumhomepage.png");
+        $('img.speechbubble').attr("src", "img/yumhomepage.png");
     }
     if(count == 2){
-         $('img.speechbubble').attr("src", "../images/defaulthomepage.png");
+         $('img.speechbubble').attr("src", "img/defaulthomepage.png");
     } 
 }

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,12 +36,12 @@
                                 Menu
                             </button>
                             <ul class="dropdown-menu pull-right" aria-labelledby="dLabel">
-                                <li class="active"><a href="cook.html">COOK</a></li>
+                                <li class="active"><a href="index.html">COOK</a></li>
                                 <li><a href="profile.html">PROFILE</a></li>
                                 <li><a href="tastebuddies.html">TASTEBUDDIES</a></li>
                                 <li><a href="help.html">HELP</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="index.html">SIGN OUT</a></li>
+                                <li><a href="#">SIGN OUT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,6 +50,9 @@
          
         <!--start-->
         <!-- Header -->
+            
+        <button type="button" id="back">BACK</button>
+
         <h1>Recipes</h1>
         <p id="description">Delicious meals that you can create with your items! Click to start cooking. You may also bookmark recipes you want to cook later.</p>
             
@@ -56,31 +60,37 @@
         <div class="row">
             <div class="col-xs-9">
                 <img class="recipes" src="../images/chickensandwich.jpg" height="300" width="340">                                                 
-                <section>
                 <p class="recipe">Chicken Sandwich</p>
-                    <a href="chickensandwich.html"><p>Cook</p></a></section>
-                    <a href="profile.html"><p class="plus">Bookmark</p></a>
+                    <a href="chickensandwichrecipe.html" class="cook"><img class="cookicon" src="../images/cook-before.png" height="60" width="60"></a>
+                    <a href="#" class="bookmark"><img class="bookmarkicon" src="../images/bookmark-before.png" height="60" width="60"></a>
 
             </div>
             <div class="col-xs-9">
                 <img class="recipes" src="../images/chickensalad.jpg" height="300" width="340">
                 <p class="recipe">Chicken Salad</p>
-                <a href="chickensandwich.html"><p>Cook</p></a>
-                <a href="profile.html"><p class="plus">Bookmark</p></a>
-
+                <div class="recipe1">
+               <a href="chickensandwichrecipe.html" class="cook"><img class="cookicon" src="../images/cook-before.png" height="60" width="60"></a>
+                <a href="#" class="bookmark"><img class="bookmarkicon" src="../images/bookmark-before.png" height="60" width="60"></a>
+                </div>
             </div>
             <div class="col-xs-9">
                 <img class="recipes" src="../images/chickenwrap.jpg" height="300" width="340">
                 <p class="recipe">Chicken Wrap</p>
-                <a href="chickensandwich.html"><p>Cook</p></a>
-                <a href="profile.html"><p class="plus">Bookmark</p></a>
+                <a href="chickensandwichrecipe.html" class="cook"><img class="cookicon" src="../images/cook-before.png" height="60" width="60"></a>
+                <a href="#" class="bookmark"><img class="bookmarkicon" src="../images/bookmark-before.png" height="60" width="60"></a>
 
             </div>
             </div>
             <!-- Buddy -->
         <img class="maintastebuddy" src="../images/pandacakee.png" height="120" width="100">
-        <img class="speechbubble" src="../images/defaulthomepage.png" height="110" width="100">
+        <img class="speechbubble" src="../images/recipes-tasty.png" height="110" width="100">
             </div>
 <!--end-->
+            
+        <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../static/js/bookmark.js"></script>
+    <script src="../static/js/backbutton.js"></script>
+
 </body>
 </html>

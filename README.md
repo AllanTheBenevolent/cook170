@@ -1,4 +1,4 @@
-Lab 2
+lab6
 ====
 
-Lab 2 introduces you to static HTML, CSS, and Bootstrap.
+Lab 6: AJAX

@@ -1,0 +1,77 @@
+body{
+    background-color: #D83142;
+    margin: 1px;
+}
+
+
+h1{
+    color: white;
+    font-family: 'Candal', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-family: 'Candal', sans-serif;
+    text-align: center;
+}
+
+ul.ingredients{
+    list-style-type: circle;
+}
+
+li#ingredients{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+p#servings{
+    text-align: center;    
+}
+
+.have{
+    background-color: #FF6666;
+    border-radius: 20px;
+    margin-left: 10px; margin-right: 10px;
+    padding-bottom: 1px;
+}
+
+.want{
+    background-color: #FF6666;
+    border-radius: 20px;
+    margin-left: 10px; margin-right: 10px;
+    padding-bottom: 1px;
+}
+
+.directions{
+    background-color: #FF6666;
+    border-radius: 20px;
+    margin-left: 10px; margin-right: 10px;
+    padding-bottom: 1px;
+}
+
+p{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    margin-left: 15px;
+}
+
+button#back{
+    background-color: #FBBB57;
+    border-color: #FBBB57;
+    font-family: 'Candal', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 10px;
+}

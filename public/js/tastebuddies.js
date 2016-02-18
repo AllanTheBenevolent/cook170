@@ -1,14 +1,14 @@
 $('img').click(function() {
+	$('img').removeClass('active');
     $(this).toggleClass("active");
 });
 
-$('a.tastebuddy').click(nameClick);
+//$('a.tastebuddy').click(nameClick);
 
 function nameClick(e) {
     e.preventDefault();
-	var friendName = dubMainBuddy($(this).find('p#tastebuddy').text());
-    $(this).find('p#tastebuddy').text(friendName);
-    
+ 	var friendName = dubMainBuddy($(this).find('p#tastebuddy').text());
+    $(this).find('p#tastebuddy').text(friendName);   
 }
 
 function dubMainBuddy(name) {

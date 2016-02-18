@@ -1,5 +1,5 @@
-$('button#back').click(clickBookmark);
+$('button#back').click(clickBack);
 
-function clickBookmark(e){
+function clickBack(e){
     window.history.back();
 }

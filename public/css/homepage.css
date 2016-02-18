@@ -25,6 +25,12 @@ img.speechbubble{
     bottom: 100px;
 }
 
+img.helpicon{
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+}
+
 a.recipes{
     position:relative;
     left: 120px;

@@ -51,6 +51,12 @@
         <!-- List of Tastebuddies -->
         <div class="container tastebuddylist" style="height:450px; overflow-y:scroll" >
         <div class="row">
+            {{#each alltastebuddies}}
+            <div class="col-xs-6 col-sm-4">
+                <a href="#" class="tastebuddy"><img class="tastebuddy top unlocked" src="{{image}}"><p id="tastebuddy">{{name}}</p></a>
+            </div>
+            {{/each}}
+            <!--
             <div class="col-xs-6 col-sm-4">
                 <a href="#" class="tastebuddy"><img class="tastebuddy top unlocked" src="img/pandacakee.png"><p id="tastebuddy">Pandacake</p></a>
             </div>
@@ -62,7 +68,7 @@
             </div>  
             <div class="col-xs-6 col-sm-4">
                 <a href="#" class="tastebuddy"><img class="tastebuddy unlocked" src="img/bearger.png"><p id="tastebuddy">Bearger</p></a>
-            </div>
+            </div>-->
             <div class="col-xs-6 col-sm-4">
                 <a href="#" class="tastebuddy"><img class="tastebuddy" src="img/pizza-locked.png"><p id="tastebuddy">Locked</p></a>
             </div>

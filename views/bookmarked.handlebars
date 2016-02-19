@@ -50,20 +50,12 @@
         <!--start-->
         <!-- Header -->
         <button type="button" id="back">BACK</button>
-        <h1>Recipes</h1>
-        <p id="description">Delicious meals that you can create with your items! Click to start cooking. You may also bookmark recipes you want to cook laterDelicious meals that you can create with your items! </p>
+        <h1>Bookmarked Recipes</h1>
+        <p id="description">It looks like you don't have any bookmarked recipes!</p>
             
         <div class="container recipeslist" style="height:500px; overflow-y:scroll" >
         <div class="row">
-            {{#each allchicken}}
-            <div class="col-xs-9">
-                <img class="recipes" src="{{img}}" height="300" width="340">                                                 
-                <p class="recipe">{{name}}</p>
-                    <a href="{{url}}" class="cook"><img class="cookicon" src="img/cook-before.png" height="60" width="60"></a>
-                    <a href="#" class="bookmark"><img class="bookmarkicon" src="img/bookmark-before.png" height="60" width="60"></a>
-
-            </div>
-            {{/each}}
+            
             <!--
             <div class="col-xs-9">
                 <img class="recipes" src="img/chickensalad.jpg" height="300" width="340">
@@ -82,8 +74,6 @@
             </div>-->
             </div>
             <!-- Buddy -->
-        <img class="maintastebuddy" src="img/pandacakee.png" height="120" width="100">
-        <img class="speechbubble" src="img/recipes-tasty.png" height="110" width="100">
             </div>
 <!--end-->
             

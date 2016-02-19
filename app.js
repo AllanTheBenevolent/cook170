@@ -15,7 +15,11 @@ var editProfile = require('./routes/editProfile');
 var tastebuddies = require('./routes/tastebuddies');
 var help = require('./routes/help');
 var recipes = require('./routes/recipes');
-var chickensandwichrecipe = require('./routes/chickensandwichrecipe');
+var chickensandwich = require('./routes/chickensandwich');
+var chickenskewers = require('./routes/chickenskewers');
+var sundriedtomatochicken = require('./routes/sundriedtomatochicken');
+var friedchicken = require('./routes/friedchicken');
+var bookmarked = require('./routes/bookmarked');
 // Example route
 // var user = require('./routes/user');
 
@@ -43,13 +47,18 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
+app.get('/index', index.view);
 app.get('/cook', cook.cookPage);
 app.get('/profile', profile.profilePage);
 app.get('/editProfile', editProfile.editProfilePage);
 app.get('/tastebuddies', tastebuddies.tastebuddiesPage);
 app.get('/help', help.helpPage);
 app.get('/recipes', recipes.recipesPage);
-app.get('/chickensandwichrecipe', chickensandwichrecipe.chickensandwichrecipePage);
+app.get('/chickensandwich', chickensandwich.chickensandwichPage);
+app.get('/chickenskewers', chickenskewers.chickenskewersPage);
+app.get('/sundriedtomatochicken', sundriedtomatochicken.sundriedtomatochickenPage);
+app.get('/friedchicken', friedchicken.friedchickenPage);
+app.get('/bookmarked', bookmarked.bookmarkedPage);
 // Example route
 // app.get('/users', user.list);
 

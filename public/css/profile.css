@@ -1,6 +1,7 @@
 body {
     background: #D83142;
     margin-top: -90px;
+    font-family: 'Candal', sans-serif;
 }
 
 .buttonclr {
@@ -9,6 +10,13 @@ body {
 }
 
 *{
-    font-family: font-family: 'Candal', sans-serif;
-       
+    font-family: 'Candal', sans-serif;
+}
+
+h1{
+    font-family: 'Candal', sans-serif;
+}
+
+h3{
+    font-family: 'Candal', sans-serif;
 }

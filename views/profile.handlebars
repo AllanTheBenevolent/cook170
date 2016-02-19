@@ -52,19 +52,24 @@
     <!-- left column -->
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="text-center">
-        <img src="http://lorempixel.com/200/200/people/9/" class="avatar img-circle img-thumbnail" alt="avatar">
+        <img src="img/bearger.png" class="avatar img-thumbnail" alt="avatar">
       </div>
     </div>
     <!-- edit form column -->
     <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
-      <h3>Personal info</h3><ul class="list-group">
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Username</strong></span>janeuser</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Email</strong></span> janesemail@gmail.com</li>
+      <h3>Personal info</h3>
+        {{#each currentuser}}
+        <ul class="list-group">
+            <li class="list-group-item text-right"><span class="pull-left"><strong>First Name</strong></span> {{firstname}}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Last Name</strong></span> {{lastname}}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Email</strong></span> {{email}}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Password</strong></span> ********</li>
             
-          </ul> 
+          </ul>
+         {{/each}}
           <div class="col-md-8">
             <a class="btn btn-default buttonclr" href="editProfile" role="button">Edit Profile</a>
-            <a class="btn btn-default buttonclr" href="#" role="button">View Buddies</a>
+            <a class="btn btn-default buttonclr" href="tastebuddies" role="button">View Buddies</a>
             <a class="btn btn-default buttonclr" href="#" role="button">View Bookmarked Recipes</a>
           </div>
         </div>

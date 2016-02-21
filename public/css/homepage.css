@@ -1,7 +1,6 @@
 body {
     background: #D83142;
-        padding-top: 90px;
-
+    padding-top: 90px;
 }
     
 .ingredients{
@@ -25,10 +24,9 @@ img.speechbubble{
     bottom: 100px;
 }
 
-img.helpicon{
-    position: fixed;
-    left: 0; 
-    bottom: 0;
+img.submit{
+    position: relative;
+    top: 25px;
 }
 
 a.recipes{
@@ -48,7 +46,7 @@ a.recipes{
     box-shadow: inset 0 -2px 2px rgba(255, 255, 255, 1), 0 -5px 0 #ccc, 0 -6px 0 #989898;
 }
 
-input[type="text"] { 
+input[type="text"]#search { 
     float: left; 
     width: 200px; 
     padding: 15px 5px 5px 5px; 
@@ -78,11 +76,59 @@ input[type="submit"].solid {
     box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 -1px 2px rgba(255, 255, 255, 0.7), 0 -5px 0 #FFEE00, 0 -6px 0 #FFEE00;
 }
 
-input[type="submit"].solid:active { 
-    background: #FEF99D; 
-    position: relative; 
-    top: -4px; 
+/* Styles the submit button */
+button.submit{ 
+    /*cursor: pointer;*/ 
+    width: 100px; 
+    padding: 8px 6px; 
+    margin-left: 25px; 
+    margin-top: 14px;
+    background-color: #FEF99D; 
+    color: #CC9900;
+    text-transform: uppercase; 
+    font-weight: bold; 
     border: 1px solid #FFCC33; 
-    
+    border-radius: 5px; 
+
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7), 0 -1px 0 #CC9900;  
     box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 -1px 2px rgba(255, 255, 255, 0.7), 0 -5px 0 #FFEE00, 0 -6px 0 #FFEE00;
+}
+
+
+/* Styles the help button */
+button.help{ 
+    position: fixed;
+    left: -25px; 
+    bottom: 0;
+    width: 50px; 
+    padding: 8px 6px; 
+    margin-left: 25px; 
+    margin-top: 14px;
+    background-color: #FEF99D; 
+    color: #CC9900;
+    text-transform: uppercase; 
+    font-weight: bold; 
+    border: 1px solid #FFCC33; 
+    border-radius: 5px; 
+
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7), 0 -1px 0 #CC9900;  
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 -1px 2px rgba(255, 255, 255, 0.7), 0 -5px 0 #FFEE00, 0 -6px 0 #FFEE00;
+}
+
+.submit a{
+    text-decoration: none;
+}
+
+.submit a:visited{
+    text-decoration: none;
+    color: #CC9900;
+}
+
+.help a{
+    text-decoration: none;
+}
+
+.help a:visited{
+    text-decoration: none;
+    color: #CC9900;
 }

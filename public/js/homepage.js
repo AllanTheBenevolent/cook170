@@ -12,6 +12,10 @@ function clickAdd(e){
     } 
 }
 
+$("li#item").on("click", function(){
+    $(this).remove();
+});
+
 // TRY THE UNCOMMENTED CODE FIRST TO SEE WHAT SHOULD HAPPEN (and the error that occurs mentioned below) 
 
 //ORIGINAL PROBLEM (CURRENT UNCOMMENTED CODE): yellow submit button will only show when you click 'ADD' button with no values in the field. When I do add actual items into the field, the submit button reverts back to gray! To solve the issue, I added code (that is currently commented out) to disable the 'ADD' button until the field is nonempty in hope that the submit button will only work after the user inputs items.

@@ -24,9 +24,18 @@ img.speechbubble{
     bottom: 100px;
 }
 
-img.submit{
-    position: relative;
-    top: 25px;
+#item{
+    position: relative; top: 10px; left: 50px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Candal', sans-serif;
+    width: 150px;
+    list-style: none;
+}
+
+p#exit{
+    position: relative; left: 55px; bottom: 10px;
 }
 
 a.recipes{
@@ -35,9 +44,8 @@ a.recipes{
     top: 30px;
 }
 
-#searchBar{
-    width: 300px;
-    height: 70px;
+#items-form{
+    width: 300px; height: 80px;
     margin: auto;
     background: #f2f2f2;
     padding: 6px 10px;
@@ -46,31 +54,28 @@ a.recipes{
     box-shadow: inset 0 -2px 2px rgba(255, 255, 255, 1), 0 -5px 0 #ccc, 0 -6px 0 #989898;
 }
 
-input[type="text"]#search { 
+input[type="text"]{ 
     float: left; 
     width: 200px; 
     padding: 15px 5px 5px 5px; 
     margin-top: 5px; 
     margin-left: 3px; 
-    border: 1px solid #66CCCC; 
+    border: 1px solid #989898; 
     
     box-shadow: inset 0 -5px 0 #ccc, inset 0 -6px 0 #989898;
 }
 
-/* Styles the search button and text */
-input[type="submit"].solid { 
+/* Styles the add button and text */
+input[type="submit"].solid{ 
     float: left; 
-    /*cursor: pointer;*/ 
     width: 50px; 
-    padding: 8px 6px; 
-    margin-left: 25px; 
-    margin-top: 14px;
+    padding: 8px 6px; margin-left: 20px; 
+    border: 1px solid #FFCC33;
+    border-radius: 5px; 
     background-color: #FEF99D; 
     color: #CC9900;
     text-transform: uppercase; 
     font-weight: bold; 
-    border: 1px solid #FFCC33; 
-    border-radius: 5px; 
     font-family: 'Candal', sans-serif;
 
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7), 0 -1px 0 #CC9900;  
@@ -79,11 +84,9 @@ input[type="submit"].solid {
 
 /* Styles the submit button */
 button.submit{ 
-    /*cursor: pointer;*/ 
     width: 100px; 
     padding: 8px 6px; 
-    margin-left: 25px; 
-    margin-top: 14px;
+    margin-left: 25px; margin-top: 14px;
     background-color: #FEF99D; 
     color: #CC9900;
     text-transform: uppercase; 

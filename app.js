@@ -20,6 +20,8 @@ var chickenskewers = require('./routes/chickenskewers');
 var sundriedtomatochicken = require('./routes/sundriedtomatochicken');
 var friedchicken = require('./routes/friedchicken');
 var bookmarked = require('./routes/bookmarked');
+var add = require('./routes/add');
+
 // Example route
 // var user = require('./routes/user');
 
@@ -59,6 +61,8 @@ app.get('/chickenskewers', chickenskewers.chickenskewersPage);
 app.get('/sundriedtomatochicken', sundriedtomatochicken.sundriedtomatochickenPage);
 app.get('/friedchicken', friedchicken.friedchickenPage);
 app.get('/bookmarked', bookmarked.bookmarkedPage);
+app.get('/add', add.addItem); 
+
 // Example route
 // app.get('/users', user.list);
 

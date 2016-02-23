@@ -3,6 +3,33 @@ $('img').click(function() {
     $(this).toggleClass("active");
 });
 
+$('a.tastebuddy').click(function(){
+	console.log($(this).find('img').attr("src"));
+	var img = $(this).find('img').attr("src");
+	var send = {
+		"mainbuddy": img
+	}
+
+	$.post('/tastebuddies', send , function (res) {});
+
+
+});
+
+/*
+$('a.tastebuddy').click(mainbuddy);
+
+var data = $.getJSON("../../mainbuddy.json", function() {
+	console.log("success");
+});
+
+function mainbuddy(e) {
+	e.preventDefault();
+	data.push({
+		"name": "$(this).text()"
+	});
+}
+*/
+
 //$('a.tastebuddy').click(nameClick);
 
 function nameClick(e) {

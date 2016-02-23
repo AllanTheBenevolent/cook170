@@ -54,6 +54,7 @@ app.get('/cook', cook.cookPage);
 app.get('/profile', profile.profilePage);
 app.get('/editProfile', editProfile.editProfilePage);
 app.get('/tastebuddies', tastebuddies.tastebuddiesPage);
+app.post('/tastebuddies', tastebuddies.selectBuddy);
 app.get('/help', help.helpPage);
 app.get('/recipes', recipes.recipesPage);
 app.get('/chickensandwich', chickensandwich.chickensandwichPage);

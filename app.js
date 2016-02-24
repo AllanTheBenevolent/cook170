@@ -21,7 +21,7 @@ var sundriedtomatochicken = require('./routes/sundriedtomatochicken');
 var friedchicken = require('./routes/friedchicken');
 var bookmarked = require('./routes/bookmarked');
 var add = require('./routes/add');
-var completion = require('./routes/completion')
+var completion = require('./routes/completion');
 
 // Example route
 // var user = require('./routes/user');

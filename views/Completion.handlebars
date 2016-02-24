@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="author" content="Ryan Weng">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <!--CSS Stylesheets-->
-        <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-        <link type="text/css" rel="stylesheet" href="css/recipes.css"/>
-        <link type="text/css" rel="stylesheet" href="css/animate.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
-        
-        <!--Scripts go here-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        
-        <title>
-            TasteBuddies | Recipes   
-        </title>
-    </head>
+<!-- style nav bar, add algorithm, add back buton -->
+<head>
+    <!-- styles the input bar -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
     
-    <body  style="overflow:hidden">
-        <div class="wrapper">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title>Tastebuddies</title>
+</head>
+
+<body>
+    <div class="wrapper">
             <!--Top Navbar-->
             <div class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
@@ -47,21 +42,30 @@
                     </div>
                 </div>
             </div>
-         
-        <!--start-->
-        <!-- Header -->
-        <button type="button" id="back">BACK</button>
+      <button type="button" id="back">BACK</button>
+        
+     <br>
+     <br>   
+    <div class="container text-center">
+        <img class = "animated infinite bounce" src="img/congrats.png" height="180" width="350">
+        <br>
+        <img class = "animated infinite bounce" src="{{mainbuddy}}" height="220" width="200">
 
-    <div class="container">
-    
-    <h1 class ="flash">CONGRATS!<h1>
-    <p>You've completed this recipe. Good Job!</p>
-    <p>You're on your way to becoming a chef!</p>
+        <h4 class = "text animated bounceIn">You actually cooked something!</h4> 
+        <h4 class = "text animated bounceIn">Now you're one step closer to becoming a chef!</h4>
+        
         
     </div>
+
+    <br>
+    <br>
+    <div class= "text-center">
+    <a href = "cook"<button type="button" class = "home">Home</button></a>
+
     </div> <!-- end of wrapper div -->
     
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/homepage.js"></script>
+    <script src= "js/backbutton.js"></script>
 </body>
 </html>

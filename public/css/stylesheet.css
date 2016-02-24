@@ -120,9 +120,9 @@ div {
     font-family: "Candal", sans-serif;
 }
 
-.home{
-    position: relative; top: -20px; bottom: -20px;
-    width: 70px; 
+.tastebtn{
+    position: relative; top: -20px;
+    width: relative; 
     padding: 8px 6px; 
     background-color: #FEF99D; 
     color: #CC9900;

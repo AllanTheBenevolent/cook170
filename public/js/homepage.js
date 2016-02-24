@@ -1,15 +1,12 @@
 $('input.solid').click(clickAdd); // remove if you want to use the above code
-var count = 0;
 
-function clickAdd(e){
-    count += 1;
-    if(count == 1){
-        $('img.speechbubble').attr("src", "img/yumhomepage.png");
+function clickAdd(e){    
+    if( jQuery.isEmptyObject(data) == true ){
+        document.getElementById("item").style.display = "none";
     }
-    else if(count == 2){
-        count = 0;
-        $('img.speechbubble').attr("src", "img/defaulthomepage.png");
-    } 
+    else{
+        return;
+    }
 }
 
 $("li#item").on("click", function(){

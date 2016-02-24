@@ -55,14 +55,14 @@
                 <input type="submit" class="solid" value="Add">
             </form>
         </div>
+        
         <div class = "text-center">
-        <!--<a class="disabled" id="submit" href="recipes"><img class="submit" src="img/submitgray.png" height="40" width="100"></a>-->
-        <!--<a id="submit" href="recipes"><img class="submit" src="img/submit.png" height="40" width="100"></a>--> 
             {{#each userItems}}
             <ul>
                 <li id="item">{{name}} &#10006;</li>
             </ul>
             {{/each}}
+            
             <button class="submit"><a href="recipes">Submit</a></button>
         </div>
         

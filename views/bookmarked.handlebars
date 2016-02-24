@@ -16,7 +16,7 @@
         <script src="js/bootstrap.js"></script>
         
         <title>
-            TasteBuddies | Recipes   
+            TasteBuddies | Bookmarked Recipes   
         </title>
     </head>
     
@@ -56,9 +56,12 @@
         <div class="container recipeslist" style="height:500px; overflow-y:scroll" >
         <div class="row">
             
+            {{#each bookmarkedrecipes}}
             <div class="col-xs-9">
-            
+            <a href="{{url}}" class="cook"><img class="recipes" src="{{img}}" height="300" width="340">
+                    <p class="recipe">{{name}}</p></a>
             </div>
+            {{/each}}
 
             <!--
             <div class="col-xs-9">

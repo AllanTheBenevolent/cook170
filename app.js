@@ -63,6 +63,7 @@ app.get('/chickenskewers', chickenskewers.chickenskewersPage);
 app.get('/sundriedtomatochicken', sundriedtomatochicken.sundriedtomatochickenPage);
 app.get('/friedchicken', friedchicken.friedchickenPage);
 app.get('/bookmarked', bookmarked.bookmarkedPage);
+app.post('/bookmarked', bookmarked.bookmarkedAction);
 app.get('/add', add.addItem); 
 app.get('/completion', completion.completionPage);
 

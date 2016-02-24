@@ -10,7 +10,7 @@ function clickAdd(e){
 }
 
 $("li#item").on("click", function(){
-    $(this).remove();
+    $(this).css('display','none');
 });
 
 // TRY THE UNCOMMENTED CODE FIRST TO SEE WHAT SHOULD HAPPEN (and the error that occurs mentioned below) 

@@ -21,6 +21,7 @@ var sundriedtomatochicken = require('./routes/sundriedtomatochicken');
 var friedchicken = require('./routes/friedchicken');
 var bookmarked = require('./routes/bookmarked');
 var add = require('./routes/add');
+var completion = require('./routes/completion')
 
 // Example route
 // var user = require('./routes/user');
@@ -63,6 +64,7 @@ app.get('/sundriedtomatochicken', sundriedtomatochicken.sundriedtomatochickenPag
 app.get('/friedchicken', friedchicken.friedchickenPage);
 app.get('/bookmarked', bookmarked.bookmarkedPage);
 app.get('/add', add.addItem); 
+app.get('/completion', completion.completionPage);
 
 // Example route
 // app.get('/users', user.list);

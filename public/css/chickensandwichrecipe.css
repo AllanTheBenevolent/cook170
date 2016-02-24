@@ -65,6 +65,11 @@ p#servings{
     padding-bottom: 1px;
 }
 
+.bookmark {
+    position: relative;
+    top: -120px;
+}
+
 p{
     color: white;
     text-align: left;

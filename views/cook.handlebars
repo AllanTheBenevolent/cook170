@@ -49,10 +49,10 @@
         <img class="speechbubble" src="img/defaulthomepage.png" height="110" width="100">
         
         <div id="inputItems">
-            <form id="items-form" role="form" method="get" action="/add">
+            <form id="items-form" role="form" method="post" action="/add">
                 <input type="text" class="form-control" id="addItems" placeholder="ex. chicken" required name="itemName">
                 <!-- add disabled = "disabled" to input tag below to use code (disable 'ADD' until fields are nonempty) -->
-                <input type="submit" class="solid" value="Add">
+                <input type="submit" class="solid" value="Add" id="addBtn">
             </form>
         </div>
         
@@ -63,7 +63,7 @@
             </ul>
             {{/each}}
             
-            <button class="submit"><a href="recipes">Submit</a></button>
+            <button class="submit" disabled="disabled"><a href="recipes" disabled="disabled">Submit</a></button>
         </div>
         
         <button class="help"><a href="help">?</a></button>

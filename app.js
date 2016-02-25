@@ -64,7 +64,7 @@ app.get('/sundriedtomatochicken', sundriedtomatochicken.sundriedtomatochickenPag
 app.get('/friedchicken', friedchicken.friedchickenPage);
 app.get('/bookmarked', bookmarked.bookmarkedPage);
 app.post('/bookmarked', bookmarked.bookmarkedAction);
-app.get('/add', add.addItem); 
+app.post('/add', add.addItem); 
 app.get('/completion', completion.completionPage);
 
 // Example route

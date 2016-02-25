@@ -56,9 +56,10 @@
                 <a href="#" class="tastebuddy"><img class="tastebuddy top unlocked" src="{{image}}"><p id="tastebuddy">{{name}}</p></a>
 
                 <!--temporary will put button in when finished -->
-                <p class ="text-center">Info button will consturct</p>
+                 <a href="#projectModal1" class="project-link" data-toggle="modal"> <p class ="text-center">Info button will consturct</p> </a>
             </div>
             {{/each}}
+
             <!--
             <div class="col-xs-6 col-sm-4">
                 <a href="#" class="tastebuddy"><img class="tastebuddy top unlocked" src="img/pandacakee.png"><p id="tastebuddy">Pandacake</p></a>
@@ -102,6 +103,44 @@
         </div> <!-- end container div-->
         
 </div> <!-- end wrapper div -->
+
+
+<!--- -->
+<!--- -->
+<!---Section for Pop out modal modules -->
+<!--- -->
+<!--- -->
+
+ <div class="project-modal modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+
+                            <h2>Project Title</h2>
+        
+                            <img class="maintastebuddy img-responsive img-centered" src="{{image}}"alt="">
+                            
+                            <p>description</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery.js"></script>

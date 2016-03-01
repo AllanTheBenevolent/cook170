@@ -27,4 +27,7 @@ function checkRecipeList(e) {
 
 $("li#item").on("click", function(){
     $(this).css('display','none');
+    var item = $(this).text();
+    item = item.slice(0, item.length - 2);
+    $.post('/delete', {'item': item});
 });

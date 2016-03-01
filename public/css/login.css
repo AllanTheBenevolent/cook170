@@ -176,6 +176,7 @@ textarea {
   transition: all 0.5s ease;
   -webkit-appearance: none;
 }
+
 .button:hover, .button:focus {
   background: #fab13e;
 }

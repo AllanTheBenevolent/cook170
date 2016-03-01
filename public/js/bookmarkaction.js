@@ -11,8 +11,8 @@ $('button.bookmark').click(function(){
 		"url": url
 	}
 	console.log(send);
-
+    
 	$.post('/bookmarked', send , function (res) {});
-
+    $(this).text('bookmarked');
 
 });

@@ -56,6 +56,8 @@
             </form>
         </div>
         
+
+        
         <div class = "text-center">
             {{#each userItems}}
             <ul>
@@ -63,7 +65,12 @@
             </ul>
             {{/each}}
             
-            <button class="submit" disabled="disabled"><a href="recipes" disabled="disabled">Submit</a></button>
+            {{#if itemsAreNotEmpty}}
+            <button class="submit"><a href="recipes">Submit</a></button>
+            {{else}}
+            <button class="submit submit-disabled"><span>Submit</span></button>
+
+            {{/if}}
         </div>
         
         <button class="help"><a href="help">?</a></button>

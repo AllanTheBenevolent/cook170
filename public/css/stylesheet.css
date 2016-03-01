@@ -29,6 +29,15 @@
     color: white;
 }
 
+.directions{
+    font-family: "Candal", sans-serif;
+    background-color: #FF6666;
+    border-radius: 20px;
+    margin-left: 10px; margin-right: 10px;
+    padding-bottom: 1px;
+    color: white;
+}
+
 
 /* NavBar Styling */
 /*.navbar-fixed-top {
@@ -202,15 +211,14 @@ div {
 
 
 .project-modal .modal-content {
-    padding: 100px 0;
     min-height: 100%;
     border: 0;
-    border-radius: 0;
+    border-radius: 10;
     text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #e9ece5;
+    background: #D83142;
 }
 
 .project-modal .modal-content h2 {
@@ -244,21 +252,23 @@ div {
 }
 
 .project-modal .close-modal .lr {
+    border:2px solid white;
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 55px;
     margin-left: 35px;
-    background-color: #3b3a36;
+    background-color: #fff;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .project-modal .close-modal .lr .rl {
+    border:2px solid white;
     z-index: 1052;
     width: 1px;
-    height: 75px;
-    background-color: #3b3a36;
+    height: 55px;
+    background-color: #fff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

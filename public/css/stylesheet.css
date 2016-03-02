@@ -75,6 +75,9 @@
 .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
 }
 */
+html {
+    height: 100%;
+}
 body {
     padding-top: 90px;
 }

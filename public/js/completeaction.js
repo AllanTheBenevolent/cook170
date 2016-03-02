@@ -14,4 +14,7 @@ $('button.completion').click(function(){
     
 	$.post('/completed', send , function (res) {});
     
+
+    ga("send", "event", "complete", "click");
 });
+

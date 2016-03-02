@@ -26,4 +26,6 @@ function clickBookmark(e){
     else if (e == 'Bookmarked'){
         return 'Bookmark';
     }
+
+    ga("send", "event", "bookmarked", "click");
 }

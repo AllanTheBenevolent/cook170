@@ -16,6 +16,7 @@ $('button.bookmark').click(function(){
     var friendName = clickBookmark($(this).text());
 	console.log($(this).text());
 	$(this).text(friendName);
+	ga("send", "event", "bookmarked", "click");
 
 });
 
@@ -26,6 +27,5 @@ function clickBookmark(e){
     else if (e == 'Bookmarked'){
         return 'Bookmark';
     }
-
-    ga("send", "event", "bookmarked", "click");
+    
 }

@@ -11,10 +11,10 @@ $('button.completion').click(function(){
 		"url": url
 	}
 	console.log(send);
+	ga("send", "event", "complete", "click");
     
 	$.post('/completed', send , function (res) {});
     
-
-    ga("send", "event", "complete", "click");
+    
 });
 

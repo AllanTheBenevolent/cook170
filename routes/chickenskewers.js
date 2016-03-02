@@ -8,5 +8,7 @@ exports.chickenskewersPage = function(req, res){
 	if(random_num > 0.25){
 	res.render('chickenskewers', {chickenskewersrecipe:data["chickenskewersing"]});
 	}
+	else{
   	res.redirect('/chickenskewersver2');
+  }
 };

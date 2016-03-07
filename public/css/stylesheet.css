@@ -145,20 +145,28 @@ div {
     font-weight: bold; 
     border: 1px solid #FFCC33; 
     border-radius: 5px; 
-
+    
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7), 0 -1px 0 #CC9900;  
     box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 -1px 2px rgba(255, 255, 255, 0.7), 0 -5px 0 #FFEE00, 0 -6px 0 #FFEE00;
 }
 
 a#bookmark{
     color: #CC9900;
+    text-decoration: none;
 }
 
 a#completion{
     color: #CC9900;
+    text-decoration: none;
 }
 
+.tastebtn:active{
+    background-color: gold;
+}
 
+#back:active{
+    background-color: gold;
+}
 
 /******************************************************************/
 /******************************************************************/

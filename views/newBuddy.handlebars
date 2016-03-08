@@ -2,21 +2,22 @@
 <html>
 <!-- style nav bar, add algorithm, add back buton -->
 <head>
-    
     <!-- styles the input bar -->
+    <!--Allan was here -->
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/chickensandwichrecipe.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-	<title>Tastebuddies</title>
+    <title>Tastebuddies</title>
 </head>
 
-<body style="overflow: hidden">
+<body>
     <div class="wrapper">
             <!--Top Navbar-->
             <div class="navbar navbar-default navbar-fixed-top">
@@ -34,8 +35,6 @@
                                 <li class="active"><a href="cook">COOK</a></li>
                                 <li><a href="profile">PROFILE</a></li>
                                 <li><a href="tastebuddies">TASTEBUDDIES</a></li>
-                                <li><a href="bookmarked">BOOKMARKED RECIPES</a></li>
-                                <li><a href="completed">COMPLETED RECIPES</a></li>
                                 <li><a href="help">HELP</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="index">SIGN OUT</a></li>
@@ -44,42 +43,29 @@
                     </div>
                 </div>
             </div>
+      <button type="button" id="back">BACK</button>
         
-    <!-- start -->
-        <button type="button" id="back">BACK</button>
+     <br>
+     <br>   
+    <div class="container text-center">
+        <img class = "animated infinite wobble" src="img/hello_speechbubble.png" height="120" width="200">
+        <br>
+        <img class = "animated infinite wobble" src="img/mrfryingpan.png" height="120" width="100">
+        <h4 class = "text animated bounceIn">You unlocked Mr. Frying Pan because you made a fried dish!</h4> 
         
-        <h1>Cheese & Chicken Sandwich</h1>
-        <p id="servings">Servings: 4</p>
         
-         <!--Buttons for completion & bookmarking-->
-        <div class = "text-center">
-        <button class="bookmark tastebtn" type="submit" formaction="chickenskewers"><a href="#" id="bookmark">Bookmark</a></button>
-        <button class="completion tastebtn"><a href ="completion" id="completion">Finish Cooking<a></button>
-        </div>
-        
-        <div class="container recipe" style="height:330px; overflow-y:scroll">
-        <img class="recipes" src="img/chickensandwicheswithmeltedcheese.png" height="300" width="340"> 
-        <div class="have">
-        <h2>Items You Need</h2>
-            <ul class="ingredients">
-                {{#each chickensandwichrecipe}}
-                <li id="ingredients">{{name}}</li>
-                {{/each}}
-            </ul>
-        </div>
-        
-        <div class="directions">
-        <h2>Directions</h2>
-            <p>Heat oven to 350° F. Spread the butter on one side of each slice of bread, then lay 4 slices on baking sheet. Divide the chicken among the 4 slices. Top with cheese and apple slices. Place the remaining bread slices on top. Bake for 10 minutes. Turn and bake about 10 minutes more.</p>
-        </div>
-
     </div>
+
+    <br>
+    <br>
+    <div class= "text-center">
+    <a href = "cook"<button type="button" class = "tastebtn">Home</button></a>
+
     </div> <!-- end of wrapper div -->
     
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="js/backbutton.js"></script>
-    <script src="js/bookmarkaction.js"></script>
-    <script src="js/completeaction.js"></script>
+    <script src="js/homepage.js"></script>
+    <script src= "js/backbutton.js"></script>
     {{> googleAnalytics}}
 </body>
 </html>

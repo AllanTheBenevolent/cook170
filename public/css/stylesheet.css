@@ -160,6 +160,16 @@ a#completion{
     text-decoration: none;
 }
 
+a#bookmark:active{
+    color: #CC9900;
+    text-decoration: none;
+}
+
+a#completion:active{
+    color: #CC9900;
+    text-decoration: none;
+}
+
 .tastebtn:active{
     background-color: gold;
 }
